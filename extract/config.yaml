@@ -1,0 +1,13 @@
+news_site:
+  eluniversal:
+    url: https://www.eluniversal.com.mx
+    queries:
+      homepage_article_links: '.field-content a'
+      article_body: 'div p'
+      article_title: 'h1'
+  elpais:
+    url: https://elpais.com
+    queries:
+      homepage_article_links: '.c_t a'
+      article_body: 'p[class=""]'
+      article_title: 'h1[class="a_t"]'
